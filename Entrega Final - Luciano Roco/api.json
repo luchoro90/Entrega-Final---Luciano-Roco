@@ -1,0 +1,92 @@
+[
+    {
+        "nombre": "Maria",
+        "apellido": "Lopez",
+        "nota": 9,
+        "aprobado": true
+    },
+    {
+        "nombre": "Juan",
+        "apellido": "Garcia",
+        "nota": 7,
+        "aprobado": true
+    },
+    {
+        "nombre": "Sofia",
+        "apellido": "Martinez",
+        "nota": 8,
+        "aprobado": true
+    },
+    {
+        "nombre": "Pedro",
+        "apellido": "Rodriguez",
+        "nota": 6,
+        "aprobado": false
+    },
+    {
+        "nombre": "Ana",
+        "apellido": "Hernandez",
+        "nota": 5,
+        "aprobado": false
+    },
+    {
+        "nombre": "Lucas",
+        "apellido": "Perez",
+        "nota": 7,
+        "aprobado": true
+    },
+    {
+        "nombre": "Valentina",
+        "apellido": "Diaz",
+        "nota": 4,
+        "aprobado": false
+    },
+    {
+        "nombre": "Miguel",
+        "apellido": "Torres",
+        "nota": 8,
+        "aprobado": true
+    },
+    {
+        "nombre": "Elena",
+        "apellido": "Vargas",
+        "nota": 3,
+        "aprobado": false
+    },
+    {
+        "nombre": "Carlos",
+        "apellido": "Rojas",
+        "nota": 6,
+        "aprobado": false
+    },
+    {
+        "nombre": "Isabella",
+        "apellido": "Lopez",
+        "nota": 9,
+        "aprobado": true
+    },
+    {
+        "nombre": "Diego",
+        "apellido": "Gomez",
+        "nota": 6,
+        "aprobado": false
+    },
+    {
+        "nombre": "Valeria",
+        "apellido": "Molina",
+        "nota": 7,
+        "aprobado": true
+    },
+    {
+        "nombre": "Jose",
+        "apellido": "Castro",
+        "nota": 3,
+        "aprobado": false
+    },
+    {
+        "nombre": "Luna",
+        "apellido": "Ortega",
+        "nota": 8,
+        "aprobado": true
+    }
+]

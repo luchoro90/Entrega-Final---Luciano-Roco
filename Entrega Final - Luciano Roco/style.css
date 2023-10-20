@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black !important;
+}
+
+.marquee {
+    position: relative;
+    left: 30%;
+    width: 40%;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+
+    color: white !important;
+}
+
+h2 {
+    margin: 10px;
+}
+
+#contenedorDatos {
+    height: 150px;
+    width: 100%;
+
+    border-top: 1px solid gold;
+    border-bottom: 1px solid gold;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(255, 0, 0, 0.285);
+}
+
+p {
+    display: none;
+    color: white;
+    text-align: center;
+}
+
+.btn-filtro {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid gold !important;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.btn-filtro:active {
+    background-color: rgb(0, 130, 52) !important;
+    border: 1px solid white !important;
+}
+
+
+#contenedorBotones {
+    text-align: center;
+    margin: 50px;
+}
+
+#collapseExample {
+    width: 135px !important;
+    position: relative;
+
+    border-radius: 10px;
+    border: 2px solid white;
+
+    margin-bottom: 10px;
+
+    left: 970px !important;
+}
+
+.btn {
+    background-color: rgba(255, 217, 0, 0.90) !important;
+
+    color: black !important;
+}
+
+.btn-interno {
+    background: black !important;
+
+    color: white !important;
+}
+
+.btn-collapse {
+    width: 120px !important;
+    margin: 5px !important;
+
+    font-size: 10px !important;
+}
+
+#botonEditar {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid gold !important;
+    width: 100px;
+    border-radius: 100px;
+    height: 25px;
+}
+
+
+#botonEditar:active {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid rgb(78, 211, 255) !important;
+}
+
+#botonEliminar {
+    border-radius: 100px;
+    width: 80px !important;
+    background-color: rgb(247, 46, 46);
+    border: 1px solid white;
+    margin-top: 3px;
+    color: white;
+    margin-right: 10px !important;
+
+    transition-delay: 0.2s;
+    transition-duration: 500ms;
+}
+
+#botonEliminar:hover {
+    background-color: red !important;
+    width: 90px !important;
+}
+
+#botonEliminar:active {
+    background-color: rgb(255, 142, 142) !important;
+    border: 1px solid red !important;
+    color: black !important;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+
+    background-color: gold !important;
+
+    align-items: center;
+}
+
+#contenedorLista {
+    display: flex;
+    width: 40% !important;
+
+    box-shadow: 7px 7px 7px rgba(255, 255, 255, 0.526);
+
+    border: 1px solid gold;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    align-items: center;
+    justify-content: start;
+
+    background-color: rgba(255, 0, 0, 0.285);
+    border-radius: 10px;
+}
+
+#contenedorLista ul {
+    width: 100%;
+    list-style: none;
+}
+
+#contenedorLista li {
+    color: white !important;
+}
+
+
+
+#listaAlumnos li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#listaAlumnos li button {
+    margin-right: 10px !important;
+
+    border-radius: 10px;
+}
+
+#nombreInput {
+    border-radius: 100px;
+    width: 200px;
+    outline: 0;
+    text-align: center;
+}
+
+#nombreInput:focus {
+    border: 2px solid lightblue;
+}
+
+#apellido {
+    border-radius: 100px;
+    width: 200px;
+    outline: 0;
+    text-align: center;
+}
+
+#apellido:focus {
+    border: 2px solid lightblue;
+}
+
+#nota {
+    width: 100px;
+    border-radius: 100px;
+    border: 0;
+    text-align: center;
+    outline: none;
+}
+
+#nota:focus {
+    border: 2px solid lightblue;
+}
+
+
+#inputSearch {
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    width: 350px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+}
+
+#inputSearch:focus {
+    outline: 2px solid lightblue;
+}
+
+.loader {
+    border: 8px solid rgba(216, 74, 74, 0.55);
+    /* Light grey */
+    border-top: 8px solid gold;
+    /* Blue */
+    border-radius: 50%;
+    position: relative;
+    left: 45% !important;
+    width: 55px;
+    height: 55px;
+    animation: spin 2s linear infinite;
+
+    margin-bottom: 20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#divDivisor {
+    height: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputEditar {
+    border-radius: 100px;
+    margin-top: 5px;
+    margin-right: 8px;
+    border: 0;
+    height: 90%;
+    width: 110px;
+    outline: 0;
+    text-align: center;
+
+}
+
+.inputEditar:focus {
+    outline: 2px solid lightblue;
+}
+
+.custom-container {
+    border: 1px solid gold;
+}
